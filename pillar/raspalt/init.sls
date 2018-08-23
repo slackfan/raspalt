@@ -1,2 +1,2 @@
 raspalt:
-  repository: https://github.com/slackfan/raspalt
+  repository: https://github.com/slackfan/raspalt.git
