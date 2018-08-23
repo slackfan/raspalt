@@ -1,3 +1,3 @@
 raspalt:
-  - log2ram: 
+  log2ram: 
     - enabled: True

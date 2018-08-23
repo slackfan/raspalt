@@ -1,5 +1,5 @@
 raspalt:
-  - timesyncd:
+  timesyncd:
     - timeserver: 
       - ptbtime1.ptb.de
       - ptbtime2.ptb.de
