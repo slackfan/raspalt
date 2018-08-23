@@ -36,8 +36,8 @@ Now it's time to invoke our repository
 ```bash
 #!/bin/bash
 mkdir -p ~/raspalt && cd ~/raspalt
-git clone https://github.com/saltstack/raspalt
-sudo cp -r 'raspalt/etc/salt/*' /etc/salt/
+git clone https://github.com/slackfan/raspalt.git
+sudo cp -r raspalt/etc/salt/ /etc/
 if service --status-all | grep -Fq 'salt-master'; then
   sudo service 'salt-master' restart
 fi
